@@ -52,10 +52,13 @@ If you are able to compile your code successfully you should see something like 
 
 # Solution
 ## Understanding
-Describe what you understood about the problem.
+ 
+I have been given a task to decode the gps data from the repo, then to use the given sources to develop a path planning algorithm
 
 ## Thought Process
-After understanding the problem, describe how you decided to proceed towards solving the question.
+
+Task 0: done forked and cloned the repo.
+Task 1:
 
 ## Implementation
 How did you decide to implement your solution.
