@@ -66,11 +66,12 @@ testcase.txt files are the UBX (hex bytes) format, have to decode this.
 
 Task 0: done forked and cloned the repo.
 
-Task 1: UBX data has to be decoded, to see what part of the program is broken, ill try understanding the error statements. Turns out the error is caused by the ublox_reader.cpp file, it seems to be pointing at the wrong indices.
+Task 1: UBX data has to be decoded, to see what part of the program is broken, ill try understanding the error statements. Turns out the error is caused by the ublox_reader.cpp file, it seems to be pointing at some wrong indices. 
 
 ## Implementation
 
-Task 1: used chatGPT to help me run the program and figure out what the error means.
+Task 1: used chatGPT to help me run the program and figure out what the error means. understood the code and input file well (got to know input format, got help from google and datasheet)
+fixed the field mismatches in ublox_reader to match the actual byte positions
 How did you decide to implement your solution.
 
 Mention the details, such as the path planning & odometry how you tested it.
