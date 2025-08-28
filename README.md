@@ -60,12 +60,17 @@ lib folder has all the header files
 src folder has cpp files with functions defined and the main.cpp file is the main program that calls all these functions and creates objects etc
 test folder test cases where i can perhaps verify the final program. 
 
+testcase.txt files are the UBX (hex bytes) format, have to decode this.
+
 ## Thought Process
 
 Task 0: done forked and cloned the repo.
-Task 1: UBX data has to be decoded, to see what part of the program is broken, ill try understanding the error statements. 
+
+Task 1: UBX data has to be decoded, to see what part of the program is broken, ill try understanding the error statements. Turns out the error is caused by the ublox_reader.cpp file, it seems to be pointing at the wrong indices.
 
 ## Implementation
+
+Task 1: used chatGPT to help me run the program and figure out what the error means.
 How did you decide to implement your solution.
 
 Mention the details, such as the path planning & odometry how you tested it.
