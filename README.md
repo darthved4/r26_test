@@ -60,7 +60,7 @@ lib folder has all the header files
 src folder has cpp files with functions defined and the main.cpp file is the main program that calls all these functions and creates objects etc
 test folder test cases where i can perhaps verify the final program. 
 
-testcase.txt files are the UBX (hex bytes) format, have to decode this.
+1 testcase.txt files are the UBX (hex bytes) format, have to decode this.
 
 ## Thought Process
 
@@ -68,11 +68,15 @@ Task 0: done forked and cloned the repo.
 
 Task 1: UBX data has to be decoded, to see what part of the program is broken, ill try understanding the error statements. Turns out the error is caused by the ublox_reader.cpp file, it seems to be pointing at some wrong indices. checked where buffer was used elsewhere, found decodeUBX function, there seems to be an issue with it, buffer does not point at class field as mentioned.
 
+task 2: might have to impliment a star algorithm to find paths (found a star algo on yt) The grid being shown on output is wrong, no error statements, have to find the logical issue here as well.
+
 ## Implementation
 
 Task 1: used chatGPT to help me run the program and figure out what the error means. understood the code and input file well (got to know input format, got help from google and datasheet)
 fixed the field mismatches in ublox_reader to match the actual byte positions. 
 fixed the indexing issue in the decodeUBX function; got correctly decoded output of gps lat,lon.
+
+Task 2: 
 
 How did you decide to implement your solution.
 
