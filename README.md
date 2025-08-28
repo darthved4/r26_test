@@ -55,10 +55,15 @@ If you are able to compile your code successfully you should see something like 
  
 I have been given a task to decode the gps data from the repo, then to use the given sources to develop a path planning algorithm
 
+i have looked and all the files and gotten a general understanding of how the project is structured.
+lib folder has all the header files
+src folder has cpp files with functions defined and the main.cpp file is the main program that calls all these functions and creates objects etc
+test folder test cases where i can perhaps verify the final program. 
+
 ## Thought Process
 
 Task 0: done forked and cloned the repo.
-Task 1:
+Task 1: UBX data has to be decoded, to see what part of the program is broken, ill try understanding the error statements. 
 
 ## Implementation
 How did you decide to implement your solution.
