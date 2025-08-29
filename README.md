@@ -76,7 +76,7 @@ Task 1: used chatGPT to help me run the program and figure out what the error me
 fixed the field mismatches in ublox_reader to match the actual byte positions. 
 fixed the indexing issue in the decodeUBX function; got correctly decoded output of gps lat,lon.
 
-Task 2: 
+Task 2: understood the given code using chatGPT, understood how A star algorithm works for path planning from YT, learning how to implement a star algo in this project using chatGPT and google.
 
 How did you decide to implement your solution.
 
